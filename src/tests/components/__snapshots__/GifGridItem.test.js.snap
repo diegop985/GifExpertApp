@@ -1,12 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Tests on <GifGridItem/> should check for proptypes 1`] = `
+<div
+  className="card animate__animated animate__bounceIn"
+>
+  <img
+    alt="Un titulo"
+    src="https://localhost/thisreactapp.jsx"
+  />
+  <p>
+     
+    Un titulo
+     
+  </p>
+</div>
+`;
+
 exports[`Tests on <GifGridItem/> should render <GifGridItem/> correctly 1`] = `
 <div
   className="card animate__animated animate__bounceIn"
 >
-  <img />
+  <img
+    alt="Un titulo"
+    src="https://localhost/thisreactapp.jsx"
+  />
   <p>
      
+    Un titulo
      
   </p>
 </div>
